@@ -1,13 +1,13 @@
 *{
     margin: 0;
     font-family: arial;
-    border: border-box;
-   
-    
-
+    border: border-box;   
 }
 
-
+a :hover{
+    border: 2.5px solid white;
+    
+}
 
 i{
     color:white;
@@ -17,7 +17,7 @@ i{
 }
 
 .container-fluid{
-   background-color: rgb(157, 157, 158);
+   background-color: lightpink;
 }
 
 h5{
@@ -39,5 +39,54 @@ footer{
     justify-content: center;
     font-size: 0.85rem;
 
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+}
+
+ul a{
+    font-size: 0.85rem;
+    color: #dddddd;
+  
+}
+
+ul p{
+    margin-top: 20px;
+    color: rgb(189, 205, 199);
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    display: flex;
+    
+}
+
+.foot-panel4{
+    background-color: #37475a;
+    color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+   
+
+
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding: 5px;
+}
+/* Foot Panel1 */
+.back a{
+    text-decoration: none;
+    color: white;
 }
 
