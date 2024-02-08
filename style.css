@@ -4,17 +4,17 @@
     border: border-box;   
 }
 
-a :hover{
-    border: 2.5px solid white;
+.nav-item:hover a{
+    scale: 1.2;
     
 }
 
 i{
     color:white;
     height: 30px;
-    width: 40px;
-    
+    width: 40px;    
 }
+
 
 
 .container-fluid{
@@ -89,5 +89,13 @@ ul p{
 .back a{
     text-decoration: none;
     color: white;
+}
+/* card hover effect */
+.card:hover img {
+    scale: 1.2;
+}
+.table{
+    margin-top: 10px;
+    /* box-shadow: 10px 10px 200px; */
 }
 
